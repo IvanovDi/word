@@ -1,0 +1,36 @@
+/*
+Theme Name:         Test Wp Tmpl
+Theme URI:          http://blweb.ru
+Description:        new tmpl
+Version:            1.0.0
+Author:             z-17
+Author URI:         http://blweb.ru
+
+License:            GPL
+*/
+
+html, body {padding:0px; margin:0px; text-align:center; background:#fafaf9; font-family:tahoma, arial; font-size:14px; color:#000;}
+td { font-family:tahoma, arial; font-size:14px; color:#000;}
+
+a:link {text-decoration:underline; color:#2a5c90}
+a:active {text-decoration:none; color:#2a5c90}
+a:visited {text-decoration:underline; color:#2a5c90}
+a:hover {text-decoration:none; color:#2a5c90}
+
+.wrapper {text-align:left; width:1000px; background:#e0e0e0; margin:0px auto;}
+
+.header {height:80px; background:#e0e0e0; font-size:25px; padding-top:20px; padding-left:30px; position:relative; border-bottom:1px solid #fff;}
+.header ul {margin:0; padding:0; font-size:16px; position:absolute; bottom:10px;}
+.header ul li {float:left; margin-right:25px; list-style:none;}
+
+h1 {margin:10px 0;}
+.middle { padding:10px 0;}
+.content {width:730px; float:left; padding:0 10px;  border-right:1px solid #fff;}
+
+.sidebar {width:228px; float:right;  padding:0 10px;}
+
+.clr {clear:both;}
+.block { width:215px; margin:10px auto;  text-align:left; padding:0px}
+.block .title {  font-weight:bold; padding:0px; text-align:center;}
+
+.footer {height:30px; padding:10px; border-top:1px solid #fff; background:#f1f1f1;}
